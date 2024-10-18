@@ -2,10 +2,17 @@
     <head>
         <link rel="stylesheet" href="index.css">
     </head>
+    
     <body>
+        <div class="container">
             <h1>Students entered:</h1>
             <h2 id="count-el">0</h2>
-            <button id="increment-btn" onclick="increment()">INCREMENT</button>           
+            <button id="increment-btn" onclick="increment()">INCREMENT</button>  
+            <button id="save-btn" onclick="save()">SAVE</button>
+            <button id="reset-btn" onclick="reset()">RESET</button>
+            <p id="entries">Previous entries: </p> 
+            <p id="percent">Percent Increase from Last Entry: 0%</p>
+        </div>      
             <script src="index.js"></script>
     </body>
 </html>
